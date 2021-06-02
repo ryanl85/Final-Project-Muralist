@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+/*----------------Nav----------------*/
+  
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 215px;
+  background-color: #ffffff;
+  border-right: solid 1px #252525;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.sidebar a:hover:not(.active) {
+  font-weight: bold;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  border-radius: 30px;
+  width: 135px;
+  height: 39px;
+  background-color: #ffffff;
+  margin-left: 2.5rem;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+background-color: rgb(220,85,120,0.3); 
+color: black;
+}
+
+.icons {
+  margin-left: 1rem;
+}
+
+.down {
+  margin-top: 15rem;
+}
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+/*----------------Nav End----------------*/
+
+
+
+
+/*----------------Text----------------*/
+
+h1.a {
+  margin: 0px 0px 21px 0px;
+}
+
+
+h1 {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h6 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 14px;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+p1 {
+font-size: 14px;
+align-content: center;
+display: block;
+font-family: 'Roboto', sans-serif;
+}
+
+p2 {
+font-size: 20px;
+vertical-align: bottom;
+
+}
+
+  strong {
+font-weight: bolder;
+  }
+
+p3 {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  float: right;
+  margin: -48px 0px 0px 0px;
+}
+
+
+
+/*----------------Text End----------------*/
+
+
+/*----------------Containers----------------*/
+
+  .about {
+    width: 650px;
+    height: auto;
+    
+  }
+  
+  .about2 {
+    width: 1000px;
+    height: auto;
+    
+  }
+
+  .logos {
+    width: 240px;
+    justify-content: left;
+    float: left;
+  }
+
+  .contact {
+    width: 700px;
+    float: left;
+    vertical-align: middle;
+    columns: 1;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 20px 16px;
+    height: 1440px;
+  }
+
+.portfolio {
+vertical-align: middle;
+
+}
+
+
+
+
+/*----------------Containers End----------------*/
+
+
+  
+ 
